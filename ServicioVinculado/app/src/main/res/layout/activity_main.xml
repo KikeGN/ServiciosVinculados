@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmx.kike.serviciovinculado.MainActivity">
+
+    <Button
+        android:id="@+id/btnI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:onClick="sayBye"
+        android:text="DETERNER SERVICIO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="OnClick"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <Button
+        android:id="@+id/btnSaludo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sayHello"
+        android:text="INICIAR SERVICIO SALUDO"
+        tools:ignore="OnClick"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+</android.support.constraint.ConstraintLayout>
